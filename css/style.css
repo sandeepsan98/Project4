@@ -8,6 +8,12 @@ font-family: 'Outfit', sans-serif;
 overflow: hidden;
    
 }
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .box1{
 
@@ -197,7 +203,7 @@ overflow: hidden;
     }
     .hr1{
         width:330px;
-        height: 1px;
+       
         position: relative;
         border: 1px solid  hsl(215, 51%, 70%); ;
         opacity: 0.2;
